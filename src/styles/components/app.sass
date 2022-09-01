@@ -5,6 +5,9 @@
     flex-wrap: wrap
     padding: 3rem
     gap: 3rem
+    @media screen and (max-width: 767px)
+        padding: 1rem
+
 
     h1
         width: 90%
@@ -13,3 +16,7 @@
         background: variables.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
+        @media screen and (max-width: 767px) 
+            width: 100%
+            font-size: 3rem
+        
